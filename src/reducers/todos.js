@@ -6,6 +6,6 @@ export const todos = (state = [], action) => {
         { id: Date.now(), todo: action.todo, completed: false },
       ];
     default:
-    return state;
+      return state;
   }
 };
