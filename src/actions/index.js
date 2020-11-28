@@ -2,7 +2,8 @@ export const addToDo = todo => ({
   type: 'ADD_TODO',
   todo
 });
-export const completeTask = task =>({
+export const completeTask = (id, todo) =>({
   type: 'COMPLETE_TASK',
-  task
+  id,
+  todo
 })
